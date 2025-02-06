@@ -1,0 +1,160 @@
+/* 
+  
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .AboutSection {
+    min-height: 100vh;
+    margin: auto;
+    border:1px solid white;
+    
+  }
+  
+  .Content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .Content {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  }
+  
+  .TimelineSection {
+    flex: 1;
+    position: relative;
+    padding-left: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .TimelineSection {
+      padding-right: 2rem;
+    }
+  }
+  
+  .TimelineSection::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background: var(--accent);
+  }
+  
+  .TimelineItem {
+    position: relative;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+  }
+  
+  .TimelineItem::before {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: var(--accent);
+  }
+  
+  .EducationCard {
+    background: var(--secondary);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 4px solid var(--accent);
+  }
+  
+  .EducationContent h3 {
+    color: var(--accent);
+    margin-bottom: 0.4rem;
+  }
+  
+  .EducationContent h4 {
+    margin-bottom: 0.3rem;
+  }
+  
+  .EducationContent p {
+    margin: 0.25rem 0;
+    color: var(--text-secondary);
+  }
+  
+  .RightSection {
+    flex: 1;
+  }
+  
+  .CodingPlatforms {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+  }
+  
+  .PlatformCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    background: var(--secondary);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .PlatformCard:hover {
+    transform: translateY(-5px);
+  }
+  
+  .PlatformCard svg {
+    font-size: 2.5rem;
+    color: var(--accent);
+  }
+  
+  .PlatformCard span {
+    color: var(--text-primary);
+    font-size: 0.9rem;
+  }
+  
+  .SkillsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 1rem;
+  }
+  
+  .SkillCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background: var(--secondary);
+    border-radius: 8px;
+    gap: 0.5rem;
+  }
+  
+  .SkillCard svg {
+    font-size: 2rem;
+    color: var(--accent);
+  }
+  
+  .SkillCard span {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  
+  .SectionTitle {
+    color: var(--accent);
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+  }
+   */
