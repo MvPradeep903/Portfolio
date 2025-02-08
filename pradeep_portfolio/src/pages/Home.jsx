@@ -38,6 +38,7 @@ const TextContent = styled.div`
     font-family: "Bebas Neue";
     font-weight: 400;
     font-style: normal;
+    margin-top : 20px
   }
 
   p {

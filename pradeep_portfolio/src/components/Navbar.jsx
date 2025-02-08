@@ -109,7 +109,12 @@ const Navbar = () => {
         {/* <Link to="/achievements" onClick={() => setIsOpen(false)}>Achievements</Link> */}
         <Link to="/projects" onClick={() => setIsOpen(false)}>Projects</Link>
         <Link to="/resume" onClick={() => setIsOpen(false)}>Resume</Link>
-        <Link to="/contact" onClick={() => setIsOpen(false)}>Contact</Link>
+        <Link to="#" onClick={(e) => {
+          e.preventDefault();
+          window.open("https://mail.google.com/mail/?view=cm&fs=1&to=jvdimvp@gmail.com", "_blank");
+          setIsOpen(false)}}>
+          Contact
+        </Link>
       </MobileMenu>
     </Nav>
   );
