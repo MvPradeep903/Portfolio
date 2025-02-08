@@ -99,21 +99,21 @@ const Projects = () => {
       description: "Developed a construction materials marketplace web application with role-based authentication, dynamic dashboards, and state management. Enabled customer purchases and managerial oversight with user-specific views." ,
       image: cm_gif,
       tags: ["ReactJS", "NodeJS","ExpressJS", "MongoDB", "Redux Toolkit","Bootstrap"],
-      github: "https://github.com/yourusername/ai-chat"
+      github: "https://github.com/MvPradeep903"
     },
     {
       title: "Grievance Management System",
       description: " Developed a user-friendly web application to handle and resolve parent grievances across multiple school branches, streamlining communication and tracking resolutions.",
       image: gs_gif,
       tags: ["ReactJS", "NodeJS","ExpressJS", "MongoDB", "Redux Toolkit","Bootstrap"],
-      github: "https://github.com/yourusername/ecommerce"
+      github: "https://github.com/MvPradeep903"
     },
     {
       title: "Smart City App",
       description: "Developed a Smart City app in ReactJS to find nearby places like supermarkets, malls, food spots, and more, with location-based search and category filters. Integrated Geoapify and Google Maps APIs",
       image: sc_gif,
       tags: ["ReactJS","Google API","Geoapify","CSS"],
-      github: "https://github.com/yourusername/ml-portfolio"
+      github: "https://github.com/MvPradeep903"
     }
   ];
 

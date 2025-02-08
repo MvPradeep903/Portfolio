@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
-
+import pradeep_img from '../assets/pradeep_image.jpg';
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 const HeroSection = styled.section`
   margin:auto;
@@ -92,10 +92,9 @@ export const Home = () => {
             as={motion.div}
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-          >
+            transition={{ duration: 0.5 }}>
             <h1>Hi, I'm Pradeep</h1>
-            <p>A Mern Stack Developer</p>
+            <p>Mern Stack Developer</p>
             <p>To grow as a Full-Stack Developer by using my skills in ReactJS and ExpressJS to build reliable 
 applications, work well with teams, contribute to the organization’s success, and continuously 
 learn new technologies to improve my technical expertise. </p>
@@ -116,9 +115,8 @@ learn new technologies to improve my technical expertise. </p>
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}
-            style={{ display: 'flex', justifyContent: 'center' }}
-          >
-            <ProfileImage src="https://coreldrawdesign.com/resources/previews/preview-virat-king-kohli-mobile-and-desktop-wallpaper-download-for-free-in-hd-1714655735.jpg" alt="Profile" />
+            style={{ display: 'flex', justifyContent: 'center' }}>
+            <ProfileImage src={pradeep_img} alt="Profile" />
             {/* <ProfileImage src="https://media.licdn.com/dms/image/v2/D5603AQHWPnuNLIn0MQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1674667829526?e=1741824000&v=beta&t=NFF-GUtBcnKqZkOZi0gDAwccE0D4cjQL9MMn7mNdlxw" alt="Profile" /> */}
           </motion.div>
         </Content>

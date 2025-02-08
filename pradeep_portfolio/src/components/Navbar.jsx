@@ -106,7 +106,7 @@ const Navbar = () => {
       <MobileMenu $isOpen={isOpen}>
         <Link to="/" onClick={() => setIsOpen(false)}>Home</Link>
         <Link to="/about" onClick={() => setIsOpen(false)}>About</Link>
-        <Link to="/achievements" onClick={() => setIsOpen(false)}>Achievements</Link>
+        {/* <Link to="/achievements" onClick={() => setIsOpen(false)}>Achievements</Link> */}
         <Link to="/projects" onClick={() => setIsOpen(false)}>Projects</Link>
         <Link to="/resume" onClick={() => setIsOpen(false)}>Resume</Link>
         <Link to="/contact" onClick={() => setIsOpen(false)}>Contact</Link>
