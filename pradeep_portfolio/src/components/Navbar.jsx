@@ -98,7 +98,12 @@ const Navbar = () => {
         {/* <Link to="/achievements">Achievements</Link> */}
         <Link to="/projects">Projects</Link>
         <Link to="/resume">Resume</Link>
-        {/* <Link to="/contact">Contact</Link> */}
+        <Link to="#" onClick={(e) => {
+          e.preventDefault();
+          window.open("https://mail.google.com/mail/?view=cm&fs=1&to=jvdimvp@gmail.com", "_blank");
+          setIsOpen(false)}}>
+          Contact
+        </Link>  
       </NavLinks>
       <MenuButton onClick={() => setIsOpen(!isOpen)}>
         {isOpen ? '✕' : '☰'}

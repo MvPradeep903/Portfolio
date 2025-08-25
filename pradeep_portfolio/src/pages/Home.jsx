@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 import pradeep_img from '../assets/pradeep_image.jpg';
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 const HeroSection = styled.section`
@@ -35,16 +36,16 @@ const TextContent = styled.div`
 
   h1 {
     margin-bottom: 1rem;
-    font-family: "Bebas Neue";
-    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    font-weight: 550;
     font-style: normal;
-    margin-top : 20px
+    margin-top : 15px
   }
 
   p {
     color: var(--text-secondary);
     margin-bottom: 2rem;
-    font-family: "Bebas Neue", serif;
+    font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-style: normal;
   }
@@ -99,7 +100,13 @@ export const Home = () => {
             <p>To grow as a Full-Stack Developer by using my skills in ReactJS and ExpressJS to build reliable 
 applications, work well with teams, contribute to the organization’s success, and continuously 
 learn new technologies to improve my technical expertise. </p>
-            <button>Contact Me</button>
+            <button>
+              <Link to="#" onClick={(e) => {
+                e.preventDefault();
+                window.open("https://mail.google.com/mail/?view=cm&fs=1&to=jvdimvp@gmail.com", "_blank")}}>
+                Contact Me
+              </Link> 
+            </button>
             <SocialLinks>
               <a href="https://github.com/MvPradeep903" target="_blank" rel="noopener noreferrer">
                 <FaGithub />
@@ -107,7 +114,7 @@ learn new technologies to improve my technical expertise. </p>
               <a href="https://www.linkedin.com/in/javvadi-mani-venkata-pradeep-0544bb324/" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin />
               </a>
-              <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
+              <a href="https://x.com/pradeep_jd244" target="_blank" rel="noopener noreferrer">
                 <FaTwitter />
               </a>
             </SocialLinks>

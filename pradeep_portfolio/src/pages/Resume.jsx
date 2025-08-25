@@ -88,7 +88,7 @@ import { Document, Page, pdfjs } from "react-pdf";
 import { Worker, Viewer } from "@react-pdf-viewer/core";
 import "@react-pdf-viewer/core/lib/styles/index.css";
 import "@react-pdf-viewer/default-layout/lib/styles/index.css";
-import pdf from '../components/pradeep_resume.pdf'
+import pdf from '../components/Pradeep MERN Stack Resume.pdf'
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const ResumeSection = styled.section`
